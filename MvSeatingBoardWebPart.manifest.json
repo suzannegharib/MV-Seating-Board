@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "134ee5dc-1823-4fe0-871a-2bafbe540ab0",
+  "alias": "MvSeatingBoardWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "SharePointFullPage"
+  ],
+  "supportsFullBleed": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "1edbd9a8-0bfb-4aa2-9afd-14b8c45dd489",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "MV Seating Board"
+      },
+      "description": {
+        "default": "Shared HR seating board"
+      },
+      "officeFabricIconFontName": "People",
+      "properties": {}
+    }
+  ]
+}
